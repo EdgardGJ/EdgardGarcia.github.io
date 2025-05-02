@@ -133,32 +133,6 @@ body {
     fill: rgb(3, 33, 167);
 }
 
-.header {
-    width: 100%;
-    min-height: 5em;
-
-    padding: 1em 2em;
-
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-between;
-    align-items: center;
-    z-index: 2;
-
-    display: none;
-   position: relative;
-
-}
-.header .ul{
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-between;
-    align-items: center;
-}
-.header .li{
-    margin:0 1em;
-}
-
 .main{
     width: 100%;
     height: 100%;
