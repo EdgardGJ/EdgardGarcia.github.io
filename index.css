@@ -344,7 +344,7 @@ body {
 }
 
 /* for tactil device */
-@media (max-width: 1024px) and (pointer: coarse) {
+@media (max-width: 1024px) and (hover: none) {
     #cursor {
         display: none;
         z-index: 0;
