@@ -344,7 +344,7 @@ body {
 }
 
 /* for tactil device */
-@media (hover: none) {
+@media (pointer: coarse) and (hover: none) {
     #cursor {
         display: none;
     }
