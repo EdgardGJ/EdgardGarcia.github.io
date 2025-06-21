@@ -158,6 +158,7 @@ body {
     align-items: center;
 }
 .section .info{
+    margin: 2rem auto;
     font-size: 1.1em;
     animation: aparecer1 2s ease 1 both;
     
@@ -295,6 +296,48 @@ body {
    
 }
 
+/*Contact button*/
+.contact {
+    min-width: 9vh;
+    min-height: 9vh;
+    font-size: 50%;
+    position: fixed;
+    color: white;
+    bottom: 2.2rem;
+    border-top: 2rem;
+    background: transparent;
+    border: white solid 2px;
+    padding: 10px;
+    border-radius: 50%;
+    right: 3.2rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: .3s;
+
+    :hover {
+        transform: scale(1.2);
+
+    }
+}
+
+.icon {
+    animation: grow 2s infinite;
+    min-width: 80%;
+}
+
+@keyframes grow {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(0.8);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
 
 .footer{
     color: var(--blanco);
@@ -348,5 +391,12 @@ body {
     #cursor {
         display: none;
         z-index: 0;
+    }
+    .section .info {
+        margin: auto;
+    }
+    .contact {
+    min-width: 6vh;
+    min-height: 6vh;
     }
 }
