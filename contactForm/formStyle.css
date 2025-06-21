@@ -194,11 +194,11 @@ a{
 .icon {
     min-width: 80%;
 }
-/*
-/* For tactil device 
+
+/* For tactil device */
 @media (max-width: 1024px) and (pointer: coarse) {
     .back {
     min-width: 6vh;
     min-height: 6vh;
     }
-}*/
+}
