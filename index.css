@@ -395,8 +395,5 @@ body {
     .section .info {
         margin: auto;
     }
-    .contact {
-    min-width: 6vh;
-    min-height: 6vh;
-    }
+   
 }
